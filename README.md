@@ -11,38 +11,31 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- The project is about creating a CNN model for classifying the skin cancer based n imput image.
+- The training dataset contains 2357 images labeling each into 9 different type of skin cancer
+- The goal is to create a CNN model which can detect the class of an incoming image as a specific type of cancer with some accuracy.
+- The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- The CNN model overfits without dropout and gives around 50% accuracy
+- The overfitting problem is reduced a bit using data augmentation startegy where the images are randomly augmented
+- Class imbalance is one of the major issue as few class types have more images than others.The accuracy improved considerably once the class imbalance is removed
+- Accuracy on validation data is around 85%.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python
+- Tensorflow
+- Keras
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@MT2012039] - feel free to contact me!
 
 
 <!-- Optional -->
